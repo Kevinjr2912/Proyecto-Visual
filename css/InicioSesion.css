@@ -1,0 +1,158 @@
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(to bottom, #151419, #0d144e);
+}
+
+.sub_container1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  margin-left: 20px;
+}
+
+.container{
+    min-height: 100vh;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.apartadoInicio{    
+  margin-top: 100px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 350px;
+  background-image: linear-gradient(180deg, #6c3f60 0, #61355d 16.67%, #542a5b 33.33%, #441f59 50%, #301657 66.67%, #121056 83.33%, #000d56 100%);
+}
+
+.box-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: -80px;
+}
+
+#icon-person{
+font-size: 70px;
+}
+
+.campoInfo{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.campoInfo input{
+  padding: 10px;
+  margin: 10px 0 15px 0;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  width: 300px;
+}
+
+.email{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.icon-email{
+width: 50px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#people{
+  color: white;
+  font-size: 40px;
+}
+
+.password{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icon-password{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lock{
+  color: white;
+  font-size: 35px;
+}
+
+#btn-sesion{
+  padding: 10px;
+  width: 250px;
+  margin: 30px auto;
+  background-color: #41338b;
+  color: white;
+  border-radius: 30px;
+  padding: 5px 30px;
+  font-size: 18px;
+  border: none;
+  box-shadow: 0px -0.5px 3px rgb(44, 44, 132);
+}
+
+#btn-sesion:hover{
+  background-color: #2d2263;
+  border: none;
+  cursor: pointer;
+  text-shadow: 0px 0px 1px white;
+}
+
+.footer {
+  margin-top: 185px;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
