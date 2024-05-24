@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de envío</title>
+    <link rel="stylesheet" href="/css/datosDeEnvioEstilos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div id="bannerDePagina">
+        <a href="helloWorldMainPage.html" id="tituloPagina">
+            <span class="material-icons">rocket_launch</span>
+            <h1>Hello World</h1>
+        </a>
+        
+        <div id="btnsBanner">
+            <button class="btnsSesion">Iniciar Sesion</button>
+            <button class="btnsSesion">Registrarse</button>
+        </div>
+    </div>
+    <div>
+        
+        <form id="posicionDeForm" onsubmit="return comprobar(event)">
+            <h2>Ingrese los datos para realizar el envío</h2>
+            <div>
+                <h3>Datos del Destinatario</h3>
+                <h4>Nombre</h4>
+                <input type="text" id="getName">
+
+                <h4>Número de teléfono</h4>
+                <input type="tel" id="getTel">
+
+                <h4>Calle y numero de domicilio</h4>
+                <input type="text" id="getDirec">
+
+                <h4>Colonia/ Fraccionamiento</h4>
+                <input type="text" id="getCol">
+
+                <h4>Municipio</h4>
+                <input type="text" id="getMun">
+
+                <h4>Estado</h4>
+                <input type="text" id="getEst">
+
+                <h4>Código postal</h4>
+                <input type="text" id="getCP">
+            </div>
+            <div id="seccionDeTarjeta">
+                <h3>Datos de Tarjeta</h3>
+                <h4>Número de tarjeta</h4>
+                <input type="text" id="getNumCard">
+
+                <h4>Fecha de vencimiento</h4>
+                <input type="date" id="getDate">
+
+                <h4>Código de seguridad</h4>
+                <input type="text" id="getCVV">
+
+                <button class="btnsSesion" onclick="comprobar()">Comprar</button>
+                
+            </div>
+            <img src="../imágenes/pilaDeLibros.jpg" id="pilaDeLibros">
+        </form>
+    </div>
+    <footer class="footer">
+        <p>&copy; AJGA-KJMP-2024-Todos los derechos reservados para los creadores. <br>
+            Universidad Politecnica de Chiapas <br>
+            Pagina web-Centro Médico
+        </p>
+    </footer>
+    <script src="../obtenerDatosEnvio.js"></script>
+</body>
+</html>
