@@ -1,6 +1,7 @@
 let btn_registrar = document.getElementById('registrer');
 let listaUsuario = [];
 let verificarListaUsuario = localStorage.getItem('lista');
+let bandera = false;
 
 if(verificarListaUsuario){
     listaUsuario = JSON.parse(verificarListaUsuario);
@@ -32,8 +33,13 @@ btn_registrar.addEventListener('click', function(){
         document.getElementById('name').value = "";
         document.getElementById('email').value = "";
         document.getElementById('password').value = "";
+
+        bandera = false;
+        window.location.href = 'libr1.html';
     }
 });
+
+export default bandera;
 
 let btn_iniciarSesion = document.getElementById('iniciarSesion');
 btn_iniciarSesion.addEventListener('click',function(){

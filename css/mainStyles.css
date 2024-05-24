@@ -1,116 +1,113 @@
 .material-icons {
-    font-family: "Material Icons";
-    font-weight: normal;
-    font-style: normal;
-    font-size: 24px; /* Preferred icon size */
-    display: inline-block;
-    line-height: 1;
-    text-transform: none;
-    letter-spacing: normal;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr;
-  
-    /* Support for all WebKit browsers. */
-    -webkit-font-smoothing: antialiased;
-    /* Support for Safari and Chrome. */
-    text-rendering: optimizeLegibility;
-  
-    /* Support for Firefox. */
-    -moz-osx-font-smoothing: grayscale;
-  
-    /* Support for IE. */
-    font-feature-settings: "liga";
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
 }
-body{
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #bannerDePagina {
-    position: relative;
-    top: -22px;
-    width: 101%;
-    height: 100px;
-    background: linear-gradient(to bottom, #151419, #0d144e);
-    color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, #151419, #0d144e);
+  color: white;
+  height: 85px;
 }
-h1#bannerDePagina {
-    margin: 10px;
-}
+
 #tituloPagina {
-    text-decoration: none;
-    color: inherit;
-    display: block;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    margin-top: 10px;
-    margin-left: 20px;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-left: 30px;
 }
 
 #btnsBanner {
-    position: absolute;
-    right: 5%;
-    top: 50%;
+  margin-right: 40px;
 }
+
 .btnsSesion {
-    background-color: #41338b;
-    color: white;
-    border-radius: 30px;
-    padding: 5px 30px;
-    font-size: 18px;
-    border: none;
-    box-shadow: 0px -0.5px 3px rgb(44, 44, 132);
+  background-color: #41338b;
+  color: white;
+  border-radius: 30px;
+  padding: 5px 30px;
+  font-size: 18px;
+  border: none;
+  box-shadow: 0px -0.5px 3px rgb(44, 44, 132);
 }
 .btnsSesion:hover {
-    background-color: #2d2263;
-    border: none;
-    cursor: pointer;
-    text-shadow: 0px 0px 1px white;
+  background-color: #2d2263;
+  border: none;
+  cursor: pointer;
+  text-shadow: 0px 0px 1px white;
 }
 .contenedorFlex {
-    width: 90%;
-    position: relative;
-    left: 5%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .contenidoFlex {
-    width: 100%;
-    height: 50%;
-    text-align: center;
+  width: 100%;
+  height: 50%;
+  text-align: center;
 
-    margin: 17px 27px 17px 27px;
-    border-radius: 5%;
-    transition: background-color 0.4s, box-shadow 0.4s, transform 0.4s;
-    padding-top: 15px;
-    text-decoration: none;
-    color: inherit;
-    
+  margin: 17px 27px 17px 27px;
+  border-radius: 5%;
+  transition: background-color 0.4s, box-shadow 0.4s, transform 0.4s;
+  padding-top: 15px;
+  text-decoration: none;
+  color: inherit;
 }
 .contenidoFlex img {
-    width: 160px;
-    height: 220px;
-    object-fit: cover;
+  width: 160px;
+  height: 220px;
+  object-fit: cover;
 }
 .contenidoFlex:hover {
-    background-color: rgb(215, 215, 215);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    transform: scale(1.1);
+  background-color: rgb(215, 215, 215);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
 }
 .enlaceLibro {
-    text-decoration: none;
-    color: inherit;
-    width: 30%;
-    height: 50%;
-    object-fit: cover;
+  text-decoration: none;
+  color: inherit;
+  width: 30%;
+  height: 50%;
+  object-fit: cover;
 }
 .footer {
-    margin-top: 155px;
-    padding: 30px;
-    text-align: center;
-    background: linear-gradient(to bottom, #151419, #0d144e);
-    color: white;
-  }
+  margin-top: 155px;
+  padding: 30px;
+  text-align: center;
+  background: linear-gradient(to bottom, #151419, #0d144e);
+  color: white;
+}

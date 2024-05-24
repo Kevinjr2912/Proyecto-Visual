@@ -3,9 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Java Deitel</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="../css/java.css">
 </head>
 <body>
-    
+    <header>
+        <div class="box-son">
+            <p><span class="material-icons">rocket_launch</span><p>
+            <h3>Hello World</h3>
+        </div>
+        <div class="box-sibling">
+            <button id="registro">Registrarse</button>
+            <button id="sesion">Iniciar Sesión</button>
+        </div>
+    </header>
+    <div class="box-content">
+        <div class="box-procesoVenta">
+            <div class="container-book">
+                <img src="../imágenes/patterns_design.jpeg" alt="">
+            </div>
+            <div class="buybook">
+                <div class="qualification">
+                    <p>Patrones de diseño</p>
+                </div>
+                <div class="main">
+                    <p id="precio-desc">$513</p>
+                    <div id="line"></div>
+                    <div class="precioGeneral">
+                        <div class="precioDescuento">
+                            <p id="descuento">$282</p>
+                        </div>
+                        <div class="porcentajeDescuento">
+                            <p>45% OFF</p>
+                        </div>
+                    </div>
+                    <div class="box-caracteristicas">
+                        <p>Lo que tienes que saber de este producto</p>
+                        <ul>
+                            <li>Año de publicación: 2002</li>
+                            <li>Número der páginas: 384</li>
+                            <li>ISBN: 09786073238021.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="actions">
+                <div class="sinopsis">
+                    <h4>Sinopsis</h4>
+                    <p>Es un libro de patrones de diseño que describe soluciones simples y elegantes para problemas específicos del diseño de software orientado a objetos.En este libro, Erich Gamma, Richard Helm, Ralph Johnson y John Vlissides introducen los principios de los patrones de diseño y ofrecen un catálogo de dichos patrones.</p>
+                </div>
+                <div class="action-buy">
+                    <label for="cantidad">Cantidad:</label>
+                    <input type="number" id="cantidad">
+                </div>
+                <button id="buy">Comprar</button>
+            </div>
+        </div>
+        <div class="information">
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; AJGA-KJMP-2024-Todos los derechos reservados para los creadores. <br>
+            Universidad Politecnica de Chiapas <br>
+            Hello World</p>
+    </footer>
+    <script src="../procesoValidaccion.js"></script>
 </body>
 </html>

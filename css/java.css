@@ -1,0 +1,229 @@
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background: linear-gradient(to bottom, #151419, #0d144e);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+.box-son {
+  display: flex;
+  gap: 7px;
+  font-size: 18px;
+  color: white;
+  align-items: center;
+}
+
+#registro {
+  background-color: #41338b;
+  color: white;
+  border-radius: 30px;
+  padding: 5px 30px;
+  font-size: 17px;
+  border: none;
+  box-shadow: 0px -0.5px 3px rgb(44, 44, 132);
+}
+
+#registro:hover {
+  background-color: #2d2263;
+  border: none;
+  cursor: pointer;
+  text-shadow: 0px 0px 1px white;
+}
+
+#sesion {
+  background-color: #41338b;
+  color: white;
+  border-radius: 30px;
+  padding: 5px 30px;
+  font-size: 17px;
+  border: none;
+  box-shadow: 0px -0.5px 3px rgb(44, 44, 132);
+}
+
+#sesion:hover {
+  background-color: #2d2263;
+  border: none;
+  cursor: pointer;
+  text-shadow: 0px 0px 1px white;
+}
+
+.box-content {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.box-procesoVenta {
+  display: flex;
+  gap: 100px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.container-book {
+  margin-top: 50px;
+  position: relative;
+  left: 70px;
+}
+
+.container-book img {
+  width: 300px;
+  height: 370px;
+}
+
+.buybook {
+  margin-top: 45px;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+
+.qualification {
+  display: flex;
+  gap: 40px;
+}
+
+.qualification p {
+  font-size: large;
+  font-weight: 700;
+}
+
+#precio-desc {
+  color: #777676;
+  font-size: medium;
+  display: block;
+  position: relative;
+  top: -5px;
+}
+
+#line {
+  border: 0.5px solid #777676;
+  width: 39px;
+  position: relative;
+  top: -30px;
+}
+
+.precioGeneral {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: -30px;
+}
+
+.precioDescuento {
+  font-size: 30px;
+}
+
+.porcentajeDescuento {
+  color: green;
+  font-size: 15px;
+}
+
+.box-caracteristicas {
+  font-size: 13px;
+  margin-top: -15px;
+}
+
+.box-caracteristicas p {
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.box-caracteristicas ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 12px;
+}
+
+.actions {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sinopsis {
+  width: 380px;
+  margin-top: 30px;
+  text-align: justify;
+}
+
+.sinopsis p {
+  font-size: 13px;
+}
+
+.action-buy {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.action-buy input {
+  outline: none;
+  padding: 5px;
+}
+
+#buy {
+  padding: 10px 60px;
+  margin: 30px auto;
+  background-color: #41338b;
+  color: white;
+  border-radius: 30px;
+  font-size: 17px;
+  border: none;
+  box-shadow: 0px -0.5px 3px rgb(44, 44, 132);
+}
+
+#buy:hover {
+    background-color: #2d2263;
+    border: none;
+    cursor: pointer;
+    text-shadow: 0px 0px 1px white;
+  }
+
+.footer {
+    background: linear-gradient(to bottom, #151419, #0d144e);
+  margin-top: 155px;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
