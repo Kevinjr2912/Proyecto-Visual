@@ -1,6 +1,7 @@
 let btn_sesion = document.getElementById('btn-sesion');
 let listaUsuarios = [];
 let comprobarLocal = localStorage.getItem('lista');
+let banderaSesion = false;
 
 if(comprobarLocal){
     listaUsuarios = JSON.parse(comprobarLocal);
@@ -23,6 +24,8 @@ else{
             window.location.href = 'helloWorldMainPage.html';
             document.getElementById('email').value = "";
             document.getElementById('password').value = "";
+            banderaSesion = true;
+            localStorage.setItem('banderaSesion', banderaSesion);
         }
 
         else{
@@ -30,6 +33,4 @@ else{
         }
     }
 }
-
-
 });

@@ -62,6 +62,9 @@ h1#bannerDePagina {
     font-size: 18px;
     border: none;
     box-shadow: 0px -0.5px 3px rgb(44, 44, 132);
+    position: relative;
+    top: 70px;
+    right: 160px;
 }
 .btnsSesion:hover {
     background-color: #2d2263;
@@ -91,8 +94,8 @@ h1#bannerDePagina {
 #pilaDeLibros {
     position: absolute;
     right: -317px;
-    bottom: -155px;
-    width: 450px;
-    height: 859px;
+    top: 35px;
+    width: 400px;
+    height: 550px;
     object-fit: cover;
 }

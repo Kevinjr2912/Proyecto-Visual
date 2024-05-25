@@ -20,7 +20,7 @@ if(btn_registrar){
             alert('Debes llenar todos los campos')
         }
         else{
-            alert('Formulario enviado correctamente');
+            alert('Registro llevado correctamente');
     
             let objeto = {
                 name: name,
